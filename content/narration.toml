@@ -1,0 +1,13 @@
+# Chronicle narration. Audio files live in static/audio/chronicle/<chapter file name>.mp3
+# (a chapter without a file simply shows no player). Lengths are in seconds.
+# Rendered with Chatterbox (narrator "storyteller"; the intel log is LANTERN on the radio), mastered to -16 LUFS.
+credit = "AI-voiced narration"
+
+[chapters]
+"01-the-demonstration" = 120.8
+"02-the-sky-that-stayed" = 116.2
+"03-what-the-strain-takes" = 119.7
+"04-the-ones-who-remember" = 117.4
+"05-lanterns" = 98.6
+"06-the-one-who-didnt-fall" = 117.3
+"07-five-years-one-road" = 115.7

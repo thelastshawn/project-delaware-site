@@ -39,7 +39,16 @@ ui.html(f"""
 
 left, mid, right = st.columns([1, 6, 1])
 with mid:
-    img = f'<img class="dl-chapter-img" src="{C.static_url("shots/" + meta["image"])}" alt="">' if meta.get("image") else ""
+    narration = C.toml("narration.toml") if (C.CONTENT / "narration.toml").exists() else {}
+    audio = C.static_path(f"audio/chronicle/{ch['slug']}.mp3")
+    if audio.exists():
+        secs = float(narration.get("chapters", {}).get(ch["slug"], 0))
+        length = f"{int(secs // 60)}:{int(secs % 60):02d}" if secs else ""
+        credit = narration.get("credit", "")
+        ui.html(f"""<div class="dl-listen"><span class="dl-listen-k">Listen to this chapter</span>
+<span class="dl-listen-m">{ui.esc(" · ".join(x for x in (length, credit) if x))}</span></div>""")
+        st.audio(str(audio), format="audio/mpeg")
+    img =f'<img class="dl-chapter-img" src="{C.static_url("shots/" + meta["image"])}" alt="">' if meta.get("image") else ""
     ui.html(f'{img}<div class="dl-read dl-prose">{body_html}</div>')
 
     prev_col, _, next_col = st.columns([1, 1, 1])

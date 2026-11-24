@@ -122,9 +122,18 @@ h1, h2, h3 { letter-spacing: .02em; }
 .dl-prose p em { color: #F3E7CF; }
 .dl-prose blockquote { border-left: 2px solid var(--teal); margin: 1.4rem 0; padding: .2rem 0 .2rem 1.1rem; }
 .dl-prose blockquote p { font-family: 'Barlow', sans-serif; font-size: 1.02rem; color: #BFEFE0; letter-spacing: .02em; line-height: 1.6; }
+.dl-prose > p:first-of-type { display: flow-root; }
 .dl-prose > p:first-of-type::first-letter { font-family: 'Cinzel', serif; float: left; font-size: 3.6rem; line-height: .9; padding: .35rem .5rem 0 0; color: var(--amber); }
 .dl-prose hr { border: 0; text-align: center; margin: 1.8rem 0; }
 .dl-prose hr::after { content: "◆"; color: var(--amber); font-size: .8rem; letter-spacing: 1rem; }
+/* chapter narration */
+.dl-listen { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line);
+  padding: .7rem 0 .35rem 0; margin: 0; }
+.dl-listen .dl-listen-k { font-family: 'Barlow Condensed', sans-serif; font-weight: 600; letter-spacing: .22em; text-transform: uppercase;
+  color: var(--amber); font-size: .9rem; }
+.dl-listen .dl-listen-k::before { content: "◆"; color: var(--amber-hi); font-size: .55rem; margin-right: .6rem; vertical-align: .15rem; }
+.dl-listen .dl-listen-m { font-family: 'Barlow Condensed', sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--dim); font-size: .8rem; }
+[data-testid="stAudio"] { color-scheme: dark; width: 100%; height: 42px; border-radius: 22px; margin-bottom: 1.5rem; }
 .dl-post p, .dl-post li { color: #D3CCBF; line-height: 1.65; font-size: 1.04rem; }
 .dl-meta { color: var(--dim); font-size: .88rem; letter-spacing: .08em; text-transform: uppercase; font-family: 'Barlow Condensed', sans-serif; }
 

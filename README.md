@@ -43,3 +43,11 @@ Streamlit can't host a multi-GB build. Put the zip on **itch.io** (free; it give
 - `static/`: images, logos, and the game's fonts (Barlow, Cinzel, Cormorant; OFL licences included)
 - `.streamlit/config.toml`: theme colours and fonts
 - `tools/smoke_test.py`: runs every page headless and reports errors (`python tools/smoke_test.py`)
+
+## Chronicle narration
+
+Each chapter in `content/chronicle/` can have a narrated MP3 at `static/audio/chronicle/<chapter file name>.mp3`; the
+Chronicle page shows a player above the chapter when the file exists. Lengths and the credit line live in
+`content/narration.toml`. To replace the AI narration with a recorded read, drop in MP3s with the same names
+(mono, 64 kbps is plenty) and update the lengths. `tools/narration/` holds the scripts and voice reference used to
+render the current narration with Chatterbox.
