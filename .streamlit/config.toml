@@ -1,0 +1,75 @@
+[server]
+# Serves everything in ./static at app/static/... (images, fonts)
+enableStaticServing = true
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#E39A3B"            # lantern amber
+backgroundColor = "#0A0B0C"
+secondaryBackgroundColor = "#15181B"
+textColor = "#E7E1D5"
+linkColor = "#F0B45A"
+borderColor = "#262A2F"
+baseRadius = "4px"
+font = "Barlow, sans-serif"
+headingFont = "'Barlow Condensed', sans-serif"
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/fonts/Barlow-Regular.ttf"
+weight = "400"
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/fonts/Barlow-Italic.ttf"
+weight = "400"
+style = "italic"
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/fonts/Barlow-Medium.ttf"
+weight = "500"
+
+[[theme.fontFaces]]
+family = "Barlow"
+url = "app/static/fonts/Barlow-SemiBold.ttf"
+weight = "600"
+
+[[theme.fontFaces]]
+family = "Barlow Condensed"
+url = "app/static/fonts/BarlowCondensed-SemiBold.ttf"
+weight = "600"
+
+[[theme.fontFaces]]
+family = "Barlow Condensed"
+url = "app/static/fonts/BarlowCondensed-Bold.ttf"
+weight = "700"
+
+[[theme.fontFaces]]
+family = "Cormorant"
+url = "app/static/fonts/Cormorant-Medium.ttf"
+weight = "500"
+
+[[theme.fontFaces]]
+family = "Cormorant"
+url = "app/static/fonts/Cormorant-MediumItalic.ttf"
+weight = "500"
+style = "italic"
+
+[[theme.fontFaces]]
+family = "Cormorant"
+url = "app/static/fonts/Cormorant-Bold.ttf"
+weight = "700"
+
+[[theme.fontFaces]]
+family = "Cinzel"
+url = "app/static/fonts/Cinzel-SemiBold.ttf"
+weight = "600"

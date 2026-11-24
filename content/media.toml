@@ -1,0 +1,121 @@
+# Videos: paste a YouTube (or Vimeo) link into url. Entries with an empty url show as "coming soon".
+# Screenshots: put the image in static/shots/ and add an entry. category is used by the filter on the Media page.
+
+[[trailers]]
+title = "Announcement trailer"
+url = ""
+note = "The first look at the long road. In production."
+still = "cine_convoy.jpg"
+
+[[trailers]]
+title = "The Heretic"
+url = ""
+note = "The first apex of the Cajon Pass."
+still = "cine_heretic.jpg"
+
+[[gameplay]]
+title = "Gameplay: the Cajon Pass"
+url = ""
+note = "Twenty minutes on the road north of Station Four. Uncut."
+still = "gameplay_road.jpg"
+
+[[gameplay]]
+title = "Gameplay: nightfall"
+url = ""
+note = "What changes when the sun goes down."
+still = "night_infected.jpg"
+
+[[screenshots]]
+file = "road_gantry.jpg"
+caption = "I-15 North. Five years of dust on the lanes."
+category = "The Road"
+
+[[screenshots]]
+file = "pass_aerial.jpg"
+caption = "The Cajon Pass from the ridgeline."
+category = "The Road"
+
+[[screenshots]]
+file = "road_north.jpg"
+caption = "North out of Station Four."
+category = "The Road"
+
+[[screenshots]]
+file = "convoy_smoke.jpg"
+caption = "Signal smoke over the convoy wrecks."
+category = "The Road"
+
+[[screenshots]]
+file = "gameplay_road.jpg"
+caption = "On the road with the full HUD."
+category = "Combat"
+
+[[screenshots]]
+file = "horde.jpg"
+caption = "A pack breaks from the dark. Kill a few infected and the rest come running."
+category = "Combat"
+
+[[screenshots]]
+file = "firefight.jpg"
+caption = "Holding a line at the overpass."
+category = "Combat"
+
+[[screenshots]]
+file = "strain_rend.jpg"
+caption = "Marcus's Strain Rend."
+category = "Combat"
+
+[[screenshots]]
+file = "apex_fight.jpg"
+caption = "An apex fight, with a boss bar for every rank."
+category = "Combat"
+
+[[screenshots]]
+file = "night_infected.jpg"
+caption = "After dark, the infected glow and the lantern is all you have."
+category = "Night"
+
+[[screenshots]]
+file = "veil_night.jpg"
+caption = "The strain veil at an apex arena gate."
+category = "Night"
+
+[[screenshots]]
+file = "veil_day.jpg"
+caption = "The veil by day. Through it, the apex waits."
+category = "The Road"
+
+[[screenshots]]
+file = "cine_heretic.jpg"
+caption = "The Heretic."
+category = "Cinematics"
+
+[[screenshots]]
+file = "cine_baptized.jpg"
+caption = "\"Then come... and be baptized.\""
+category = "Cinematics"
+
+[[screenshots]]
+file = "cine_convoy.jpg"
+caption = "The convoy ambush south of Station Four."
+category = "Cinematics"
+
+[[screenshots]]
+file = "cine_ambush.jpg"
+caption = "Two-One goes down."
+category = "Cinematics"
+
+[[screenshots]]
+file = "dossier_map.jpg"
+caption = "The operative's dossier: the map of the pass."
+category = "Interface"
+
+[[screenshots]]
+file = "waylight_menu.jpg"
+caption = "A Waylight: rest, travel, change the team."
+category = "Interface"
+
+[[screenshots]]
+file = "title_screen.jpg"
+caption = "The title screen."
+category = "Interface"

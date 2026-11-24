@@ -1,0 +1,194 @@
+# The World page. Spoiler rule: only what a player learns in the first hour, or what a trailer would show.
+
+[[setting]]
+tag = "14 July 2027"
+title = "The Release"
+body = "A demonstration at a military weapons laboratory under the Nevada desert. Officials in the stands, a countdown on the board. Something in the lab was meant to stay there. It didn't."
+image = "pass_aerial.jpg"
+
+[[setting]]
+tag = "The sky"
+title = "The Overcast"
+body = "Spores rode the jet stream east, and the clouds came with them. Five years on, the sky has not cleared once. Days are flat and grey; nights are truly dark."
+image = "road_gantry.jpg"
+
+[[setting]]
+tag = "The infected"
+title = "Hosts"
+body = "When the strain takes a person, the person dies. What gets up wears their body and nothing else. Nobody comes back. In the dark you know them by the teal light in their veins."
+image = "night_infected.jpg"
+tone = "teal"
+
+[[setting]]
+tag = "The apexes"
+title = "Those Who Remember"
+body = "In every region, one host was taken whole. It keeps their memories, their voice, their habits, and it commands the hive around it. Each has a name, and each was somebody once."
+image = "cine_heretic.jpg"
+tone = "teal"
+
+[[setting]]
+tag = "Keep the light on"
+title = "LANTERN"
+body = "Within weeks of the release, LANTERN's stations were lit along the old interstates: relays, walls, beacon camps called Waylights. Its people keep the survivors alive. Its leaders, the Lamplighters, are never seen."
+image = "convoy_smoke.jpg"
+
+[[setting]]
+tag = "Dover, Delaware"
+title = "Facility Zero"
+body = "The largest safe haven left. Its broadcast has repeated for five years: make for Facility Zero. No infected has ever been inside its walls. Now the hives are turning east."
+image = "road_north.jpg"
+
+[[operatives]]
+key = "marcus"
+name = "Marcus 'Gunny' Garrison"
+role = "LANTERN operative · the lone wolf"
+tone = "ember"
+bio = [
+  "The strain took Marcus and didn't win. He is the only infected anyone knows of who kept his mind, his conscience and his name. Ember-red fissures run through his skin; his left eye burns.",
+  "He doesn't age. He may not be able to die of anything but violence. There is no cure in his blood; LANTERN has checked.",
+  "People who knew him before still call him Gunny. Everyone else calls him LANTERN's lone wolf.",
+]
+kit = ["Strain Rend: a crescent of his own infection, thrown", "Chimera Carapace: black flame and a shell of strain", "Takes punishment no one else could"]
+
+[[operatives]]
+key = "sarah"
+name = "Captain Sarah Kang"
+role = "LANTERN operative"
+tone = "violet"
+bio = [
+  "Four months after the release, Sarah Kang went into the dark on a mission nobody talks about. She came back without her squad, without her left arm, and without her legs below the knee.",
+  "LANTERN rebuilt her. Half of her is now machine: faster, stronger, quieter than anyone on the road.",
+  "She doesn't talk about the mission either.",
+]
+kit = ["Bionic left arm and legs", "Speed and precision over brute force", "Choose her, and Marcus is the voice on the LINK"]
+
+[[team]]
+key = "thorne"
+name = "Malik Thorne"
+role = "Heavy gunner"
+bio = "The oldest walker on the team, with a radio on his chest he never turns off. He has walked this road before and won't say when."
+weapon = "Hammerfall (M249)"
+special = "Suppressing Fire: a long burst that pins everything on the line"
+
+[[team]]
+key = "sera"
+name = "Sera Delgado"
+role = "Scout & marksman"
+bio = "A ridge scout who reads the road before you reach it. Quiet until she isn't."
+weapon = "Long Quiet (MK14)"
+special = "Dead Shot: one round to the head of the toughest thing in sight"
+
+[[team]]
+key = "cole"
+name = "Cole Miller"
+role = "Breacher"
+bio = "Long coat, short temper, shorter shotgun. First through every door."
+weapon = "Doorkicker (M104)"
+special = "Breach: a point-blank blast that throws back anything too close"
+
+[[team]]
+key = "anya"
+name = "Anya Rostova"
+role = "Demolitions"
+bio = "She takes things apart for a living: bridges, barricades, packs of the infected."
+weapon = "Sparrow (KSV-9)"
+special = "Frag Lob: a grenade into the thickest crowd"
+
+[[station]]
+key = "salazar"
+name = "Mateo Salazar"
+role = "Quartermaster"
+bio = "Gunsmith and trader at Station Four. Every rifle he re-barrels carries his rattlesnake mark."
+
+[[station]]
+key = "brujo"
+name = "El Brujo"
+role = "Relic dealer"
+bio = "Trades in what can be cut out of the infected. Nobody has seen his face. Nobody asks."
+
+[[station]]
+key = "reed"
+name = "Cassidy 'Doc' Reed"
+role = "Mender"
+bio = "Station Four's medic. Kind eyes, short beard, very few supplies."
+
+[[station]]
+key = "kovic"
+name = "Dr. Elena Kovic"
+role = "Xenobiologist"
+bio = "LANTERN's scientist at Station Four. She studies the strain, and she studies Marcus."
+
+[[factions]]
+title = "The Hives"
+tag = "Infected"
+tone = "teal"
+body = "Husks, Frenzied runners, Bile Spitters, Spore Brutes, and the pack leaders that call them. Kill a few and the rest come out of the dark."
+image = "horde.jpg"
+
+[[factions]]
+title = "The Cartel"
+tag = "Human"
+body = "El Machete's crew hold a reservoir in the pass and everything in rifle range of it. Faded red rags, scrap armour, gold guns."
+image = "firefight.jpg"
+
+[[factions]]
+title = "The Raiders"
+tag = "Human"
+body = "Highway gangs who live off travellers. On the road, people are often worse than the dead."
+image = "road_north.jpg"
+
+[[regions]]
+no = "I"
+title = "Cajon Pass"
+body = "The I-15 through the San Gabriels: wrecked convoys, rest stops gone feral, and the summit travel center where the first apex holds court."
+image = "road_gantry.jpg"
+
+[[regions]]
+no = "II"
+title = "Las Vegas"
+body = "The Strip under the overcast, every casino dark. Somebody is still putting on a show."
+image = ""
+locked = true
+
+[[regions]]
+no = "III"
+title = "Ground Zero"
+body = "Back to where it started, under Frenchman Flat. Something down there is still counting."
+image = ""
+locked = true
+
+[[glossary]]
+term = "Station"
+text = "A LANTERN stronghold. Station Four holds the Cajon Pass."
+
+[[glossary]]
+term = "Waylight"
+text = "A beacon camp on the long road: rest, resupply, change the team."
+
+[[glossary]]
+term = "Warden"
+text = "LANTERN security, on the walls and at the gates."
+
+[[glossary]]
+term = "Tender"
+text = "Anyone who keeps a station running."
+
+[[glossary]]
+term = "Mender"
+text = "A LANTERN medic."
+
+[[glossary]]
+term = "Pathfinder"
+text = "A LANTERN scout who walks ahead of everyone else."
+
+[[glossary]]
+term = "The LINK"
+text = "LANTERN's radio net. Orders come over it as numbered directives."
+
+[[glossary]]
+term = "Lamplighters"
+text = "LANTERN's leadership. No one in the field has met one."
+
+[[glossary]]
+term = "Apex"
+text = "A host the strain took whole. It remembers who it was."

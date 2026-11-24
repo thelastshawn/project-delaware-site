@@ -1,0 +1,60 @@
+# Project DELAWARE website settings.
+# Leave any link empty ("") and the site hides it. Save the file and the site updates on its next refresh.
+
+[site]
+title = "Project DELAWARE"
+studio = "Blue Koi Studios"
+year = 2026
+tagline = "Five years. One road north."
+motto = "Keep the light on."
+pitch = "A third-person survival shooter with the bones of a soulslike. Five years after a viral release under the Nevada desert, the sky never cleared and the dead never stopped walking. You are LANTERN's last operative, sent east on the long road to the only safe haven left: Facility Zero, in Dover, Delaware."
+
+[links]
+youtube = ""      # https://youtube.com/@yourchannel
+discord = ""      # https://discord.gg/yourinvite
+x = ""
+instagram = ""
+tiktok = ""
+itch = ""         # https://yourname.itch.io/project-delaware
+steam = ""
+email = ""        # press and contact address
+
+[download]
+# "in-development" shows "coming soon"; "available" shows the download buttons.
+status = "in-development"
+version = "Demo 0.1"
+release_window = "To be announced"
+platform = "Windows 10 / 11 (64-bit)"
+size = ""                 # e.g. "6.2 GB"
+url = ""                  # the main download (itch.io page, GitHub Release or a file link)
+url_label = "Download for Windows"
+mirror_url = ""
+mirror_label = "Mirror"
+sha256 = ""               # optional checksum of the zip
+
+[donate]
+# Any that are filled in appear as buttons on the Support page.
+kofi = ""                 # https://ko-fi.com/yourname
+patreon = ""              # https://patreon.com/yourname
+paypal = ""               # https://paypal.me/yourname
+github_sponsors = ""
+buymeacoffee = ""
+
+# What support pays for. Set target and raised (in US dollars) to show a progress bar; leave target = 0 to hide it.
+[[goals]]
+name = "A real voice cast"
+detail = "Actors for Marcus, Sarah, the companions and every apex, replacing the scratch voices."
+target = 0
+raised = 0
+
+[[goals]]
+name = "Motion capture"
+detail = "Captured acting for the cutscenes, so every Last Memory plays like a film."
+target = 0
+raised = 0
+
+[[goals]]
+name = "An original score"
+detail = "A composer for the road: the Waylights, the hives, and a theme for every apex."
+target = 0
+raised = 0
